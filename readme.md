@@ -1,1 +1,1 @@
-Crdits: Thanks to [Androz2091](https://github.com/Androz2091)
+Credits: Thanks to [Androz2091](https://github.com/Androz2091)
