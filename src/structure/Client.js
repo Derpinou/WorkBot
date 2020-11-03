@@ -1,5 +1,5 @@
-const path = require("path"),
-    {readdir} = require('fs');
+const path = require("path"),//Load path library
+    {readdir} = require('fs');//Load fs library
 // Load up the discord.js library
 const {Client, Collection} = require("discord.js");
 module.exports = class Bot extends Client {
@@ -8,7 +8,7 @@ module.exports = class Bot extends Client {
         this.config = require("../../config.js"); // Load the config file
         this.commands = new Collection(); // Creates new commands collection
         this.logger = require("../utils/Logger"); // Load the logger file
-        this.functions = require("../utils/functions");
+        this.functions = require("../utils/functions");// Load the functions file
     }
     async init() {
         this.commandLoader();
