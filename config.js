@@ -1,7 +1,7 @@
 module.exports = {
     bot: {
         token: "XXXXXXXXXXXXX",//Token du bot Discord
-        color: "#db981a",//Couleur des embeds
+        color: "XXXXXXXXXXXXX",//Couleur des embeds
         prefix: "!!"//prefix du bot
     },
     ecoleDirecte: {
